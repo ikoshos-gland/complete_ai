@@ -1,0 +1,12 @@
+# PROTOTYPE - wipe me. Ünite prototipinin izole ortamı.
+[project]
+name = "unite-attention-prototype"
+version = "0.0.0"
+requires-python = ">=3.11"
+dependencies = ["numpy", "pytest"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
